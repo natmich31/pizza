@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA HOT</title>
+    <body background="/img/pizza.jpg"></body>
+    <link rel="stylesheet" href="/js/bootstrap.min.css">
+</head>
+<body>
+    <center>
+    <h1 class="bg-dark  text-white">PIZZA HU</h1>
+     <img src="/img/logo-removebg-preview.png" width="200" height="200" align="center">
+    <div class="card m-5">
+    <h1 class=" bg-danger text-white ">TAMAÑO:</h1>
+    <select class="form-control "name="tamaño" onchange="calcular()" id="tamaño">
+        <option value="individual" >INVIDUAL</option>
+        <option value="grande" >GRANDE</option>
+        <option value="familiar" >FAMILIAR</option>
+        <option value="jumbo">JUMBO</option><br><br>
+
+        
+
+    </select>
+    <br>
+    <div id="img"></div>
+    
+    
+    <h1 class="bg-success">Cantidad</h1>
+    <input class="form-control "type="range" id="cantidad" value="0" min="1" max="5">
+    <label class="h2 "id="vcan">1</label>
+
+
+    <h1 class=" bg-danger text-white ">EXTRAS:</h1>
+       
+
+
+</center>
+</body>
+<script src="/js/bootstrap.min.js"></script>
+    <script src="/js/sweetalert2.all.min.js"></script>
+    <script src="app.js"></script>
+</html>
